@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">TV Signage Player</string>
+    <string name="app_tagline">Kompatibel dengan Xibo CMS</string>
+    
+    <!-- Setup Screen -->
+    <string name="setup_title">Registrasi Player</string>
+    <string name="cms_url_label">URL CMS</string>
+    <string name="cms_url_hint">http://192.168.1.100:8080</string>
+    <string name="server_key_label">Server Key</string>
+    <string name="server_key_hint">Masukkan kunci server Xibo</string>
+    <string name="display_name_label">Nama Layar / Display</string>
+    <string name="display_name_hint">misal: TV-Lobi-01</string>
+    <string name="hardware_key_label">Hardware Key (Otomatis):</string>
+    <string name="btn_connect">Hubungkan / Daftar</string>
+    <string name="btn_save">Simpan Pengaturan</string>
+    <string name="btn_cancel">Batal</string>
+    <string name="trust_self_signed_label">Percayai Sertifikat SSL Self-Signed (Lanjutan)</string>
+    <string name="ssl_warning">Peringatan: Mematikan verifikasi SSL dapat mengekspos trafik pada jaringan publik.</string>
+
+    <!-- Status Messages -->
+    <string name="status_connecting">Menghubungkan ke CMS...</string>
+    <string name="status_waiting_auth">Menunggu otorisasi di Xibo CMS</string>
+    <string name="status_waiting_auth_desc">Buka Xibo CMS > Displays, temukan hardware key ini, lalu klik Authorise.</string>
+    <string name="status_registered">Display Terdaftar &amp; Aktif</string>
+    <string name="status_syncing">Menyinkronkan jadwal dan media...</string>
+    <string name="status_no_layout">Belum ada layout aktif. Menunggu jadwal...</string>
+    <string name="status_error_connection">Gagal terhubung ke CMS. Berjalan dalam mode cache offline.</string>
+
+    <!-- Dialogs -->
+    <string name="settings_title">Pengaturan Player</string>
+    <string name="enter_pin_label">Masukkan PIN Admin</string>
+    <string name="incorrect_pin">PIN salah. Silakan coba lagi.</string>
+    <string name="confirm_exit_title">Keluar dari Player?</string>
+    <string name="confirm_exit_desc">Apakah Anda yakin ingin menghentikan pemutaran dan kembali ke beranda Android?</string>
+    <string name="btn_exit">Keluar</string>
+</resources>

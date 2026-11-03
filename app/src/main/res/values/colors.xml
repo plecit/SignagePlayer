@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="tv_background">#FF121212</color>
+    <color name="tv_surface">#FF1E1E1E</color>
+    <color name="tv_primary">#FF2196F3</color>
+    <color name="tv_primary_variant">#FF1976D2</color>
+    <color name="tv_accent">#FFFF9800</color>
+    <color name="tv_focus_ring">#FF00E5FF</color>
+    <color name="tv_text_primary">#FFFFFFFF</color>
+    <color name="tv_text_secondary">#FFB0BEC5</color>
+    <color name="tv_status_waiting">#FFFFC107</color>
+    <color name="tv_status_ready">#FF4CAF50</color>
+    <color name="tv_status_error">#FFF44336</color>
+</resources>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <soap:Body>
+    <RequiredFilesResponse xmlns="urn:xmds">
+      <RequiredFilesResult>
+        &lt;files&gt;
+          &lt;file id="1" type="layout" size="1450" md5="a1b2c3d4e5f60718293a4b5c6d7e8f90" path="1.xlf" /&gt;
+          &lt;file id="101" type="media" size="1258900" md5="5d41402abc4b2a76b9719d911017c592" path="101.jpg" /&gt;
+          &lt;file id="102" type="media" size="8492000" md5="098f6bcd4621d373cade4e832627b4f6" path="102.mp4" /&gt;
+          &lt;file id="200" type="resource" size="2048" md5="ad0234829205b9033196ba818f7a872b" path="200.html" /&gt;
+        &lt;/files&gt;
+        &lt;purge&gt;
+          &lt;file id="99" path="old_promo.mp4" /&gt;
+        &lt;/purge&gt;
+      </RequiredFilesResult>
+    </RequiredFilesResponse>
+  </soap:Body>
+</soap:Envelope>

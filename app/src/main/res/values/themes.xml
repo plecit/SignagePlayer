@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.TVSignagePlayer" parent="Theme.AppCompat.NoActionBar">
+        <item name="android:windowBackground">@color/tv_background</item>
+        <item name="android:textColor">@color/tv_text_primary</item>
+        <item name="colorPrimary">@color/tv_primary</item>
+        <item name="colorPrimaryDark">@color/black</item>
+        <item name="colorAccent">@color/tv_accent</item>
+    </style>
+
+    <style name="Theme.TVSignagePlayer.Fullscreen" parent="Theme.TVSignagePlayer">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:keepScreenOn">true</item>
+    </style>
+</resources>

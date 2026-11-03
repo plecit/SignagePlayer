@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout width="1920" height="1080" bgcolor="#000000" schemaVersion="4">
+  <region id="r_main_video" width="1280" height="720" top="0" left="0" zIndex="1">
+    <media id="102" type="video" duration="15">
+      <options>
+        <uri>102.mp4</uri>
+      </options>
+    </media>
+  </region>
+  <region id="r_side_banner" width="640" height="720" top="0" left="1280" zIndex="1">
+    <media id="101" type="image" duration="10">
+      <options>
+        <uri>101.jpg</uri>
+        <scaleType>fit</scaleType>
+      </options>
+    </media>
+  </region>
+  <region id="r_bottom_ticker" width="1920" height="360" top="720" left="0" zIndex="2">
+    <media id="201" type="text" duration="10">
+      <raw>&lt;h1 style="color: #38BDF8;"&gt;Selamat Datang di Android TV Signage Player&lt;/h1&gt;</raw>
+    </media>
+  </region>
+</layout>

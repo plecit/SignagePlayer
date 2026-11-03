@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <soap:Body>
+    <RegisterDisplayResponse xmlns="urn:xmds">
+      <RegisterDisplayResult>
+        &lt;display status="READY" code="100" message="Authorised"&gt;
+          &lt;setting type="collectInterval"&gt;60&lt;/setting&gt;
+          &lt;setting type="statsEnabled"&gt;1&lt;/setting&gt;
+          &lt;setting type="xmrChannel"&gt;tcp://192.168.1.100:50001&lt;/setting&gt;
+          &lt;setting type="xmrPubKey"&gt;MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQC3...&lt;/setting&gt;
+          &lt;setting type="timezone"&gt;Asia/Jakarta&lt;/setting&gt;
+        &lt;/display&gt;
+      </RegisterDisplayResult>
+    </RegisterDisplayResponse>
+  </soap:Body>
+</soap:Envelope>

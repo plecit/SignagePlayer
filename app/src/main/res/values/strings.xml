@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">TV Signage Player</string>
+    <string name="app_tagline">Compatible with Xibo CMS</string>
+    
+    <!-- Setup Screen -->
+    <string name="setup_title">Player Registration</string>
+    <string name="cms_url_label">CMS URL</string>
+    <string name="cms_url_hint">http://192.168.1.100:8080</string>
+    <string name="server_key_label">Server Key</string>
+    <string name="server_key_hint">Enter Xibo server key</string>
+    <string name="display_name_label">Display Name</string>
+    <string name="display_name_hint">e.g. Lobby-Screen-01</string>
+    <string name="hardware_key_label">Hardware Key (Auto-Generated):</string>
+    <string name="btn_connect">Connect / Register</string>
+    <string name="btn_save">Save Settings</string>
+    <string name="btn_cancel">Cancel</string>
+    <string name="trust_self_signed_label">Trust Self-Signed SSL Certificates (Advanced)</string>
+    <string name="ssl_warning">Warning: Disabling SSL verification may expose traffic on untrusted networks.</string>
+
+    <!-- Status Messages -->
+    <string name="status_connecting">Connecting to CMS...</string>
+    <string name="status_waiting_auth">Waiting for authorization in Xibo CMS</string>
+    <string name="status_waiting_auth_desc">Please go to Xibo CMS > Displays, locate this hardware key, and click Authorise.</string>
+    <string name="status_registered">Display Registered &amp; Active</string>
+    <string name="status_syncing">Syncing schedules and media...</string>
+    <string name="status_no_layout">No active layout found. Waiting for schedule...</string>
+    <string name="status_error_connection">Cannot connect to CMS. Operating in offline cache mode.</string>
+
+    <!-- Dialogs -->
+    <string name="settings_title">Player Settings</string>
+    <string name="enter_pin_label">Enter Admin PIN</string>
+    <string name="incorrect_pin">Incorrect PIN. Try again.</string>
+    <string name="confirm_exit_title">Exit Player?</string>
+    <string name="confirm_exit_desc">Are you sure you want to stop playback and exit to Android home?</string>
+    <string name="btn_exit">Exit</string>
+</resources>

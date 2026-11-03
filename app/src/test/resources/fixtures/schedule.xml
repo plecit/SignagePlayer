@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <soap:Body>
+    <ScheduleResponse xmlns="urn:xmds">
+      <ScheduleResult>
+        &lt;schedule&gt;
+          &lt;default layoutid="1" /&gt;
+          &lt;events&gt;
+            &lt;event id="10" layoutid="2" fromdt="2026-11-01 00:00:00" todt="2026-11-30 23:59:59" priority="5" /&gt;
+            &lt;event id="11" layoutid="3" fromdt="2026-11-03 08:00:00" todt="2026-11-03 18:00:00" priority="10" /&gt;
+          &lt;/events&gt;
+        &lt;/schedule&gt;
+      </ScheduleResult>
+    </ScheduleResponse>
+  </soap:Body>
+</soap:Envelope>
